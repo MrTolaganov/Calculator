@@ -37,6 +37,11 @@ body {
   outline-color: #02f2fa;
 }
 
+.input .input-value {
+  margin: .5rem 0;
+  font-size: 2rem;
+}
+
 button {
   width: 4.5rem;
   height: 2.5rem;
@@ -52,6 +57,10 @@ button:active {
   transform: scale(1.1);
   background-color: #02f2fa;
   color: #fff;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .row4 {
